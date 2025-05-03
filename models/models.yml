@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: raw_ecommerce
-    database: your_project_id
-    schema: your_dataset
+    database: purwadika
+    schema: dbt_rrsyah2
     tables:
       - name: customers
       - name: orders
