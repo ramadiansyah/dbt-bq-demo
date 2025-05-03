@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw_ecommerce
+    database: your_project_id
+    schema: your_dataset
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_items
+
+models:
+  - name: stg_customers
+    description: "Staging untuk data customers"
+  - name: stg_orders
+    description: "Staging untuk data orders"
+  - name: stg_order_items
+    description: "Staging untuk data order_items"
+  - name: prep_customer_order_summary
+    description: "Ringkasan pesanan dan total pengeluaran pelanggan"

@@ -1,1 +1,1 @@
-# dbt-bq-demo
+# dbt-bq
